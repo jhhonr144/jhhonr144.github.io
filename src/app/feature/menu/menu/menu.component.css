@@ -1,0 +1,146 @@
+#startmenu {
+    top: -442px;
+    background: transparent url(/assets/start_menu.png) no-repeat 0 0;
+    width: 384px;
+    height: 443px;
+    position: absolute;
+    left: 6px;
+    background-size: 100% 100%;
+}
+
+
+#startmenu h3 {
+    margin: -2px 10px;
+    padding: 10px 0 0 0;
+    height: 40px;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+#startmenu #close {
+    bottom: 8px;
+    right: 10px
+}
+
+#startmenu #close li a {
+    padding: 10px 10px 6px 32px;
+    background-position: 0 2px;
+    background-color: transparent;
+    background-repeat: no-repeat
+}
+
+#startmenu li#logoff a {
+    background-image: url(/assets/logoff.png)
+}
+
+#startmenu li#shutdown a {
+    background-image: url(/assets/shutdown.png)
+}
+
+#startmenu li#logoff a:hover, #startmenu li#shutdown a:hover {
+    background-position: 0 -31px;
+    background-color: #1062CF
+}
+
+#startmenu h3 img {
+    margin: 0px 40px 0 0;
+    vertical-align: text-top;
+    width: 48px;
+    height: 48px;
+    border-radius: 7px;
+}
+
+#recentprograms {
+    width: 200px;
+    padding: 26px 8px;
+}
+
+#recentprograms {
+    color: #000;
+}
+
+#internetbrowser {
+    background-image: url(/assets/ie.png);
+}
+
+#internetbrowser, #emailclient {
+    background-position: 0 3px;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    padding: 10px 0 0 40px;
+    height: 40px;
+}
+#internetbrowser dt, #emailclient dt {
+    margin: -5px 0;
+}
+
+#recentprograms dl dd a {
+    color: #7E7E7E;
+}
+
+#emailclient {
+    background-image: url(/assets/thunderbird.png);
+}
+
+#recent {
+    background: transparent url(/assets/divider.png) no-repeat 50% 0;
+}
+#recent {
+    padding: 15px 0 0;
+}
+
+ul li {
+    list-style: none;
+}
+
+#recent li a, #allprograms li a {
+    display: block;
+    padding: 12px 0 12px 40px;
+    background-position: 2px 0;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    font-size: 11px;
+}
+
+#recentprograms a {
+    color: #000;
+}
+
+#recent #startWinamp a {
+    background-image: url(/assets/winamp.png);
+}
+#recent #startNC a {
+    background-image: url(/assets/totalcommander.png);
+}
+
+#recent #startCP a {
+    background-image: url(/assets/commandPrompt.png);
+}
+#recent #startTetris a {
+    background-image: url(/assets/tetris.png);
+}
+
+#recent #startMS a {
+    background-image: url(/assets/minesweeper.png);
+}
+#recent #mediaplayer a {
+    background-image: url(/assets/windows_media_player.png);
+}
+
+#internetbrowser:hover, #emailclient:hover, #recent li a:hover, #myplaces li a:hover, #myplaces li#myrecent ul li a:hover, #allprograms li a:hover, #startmenu #allprograms li ul li.folder a:hover, #startmenu #allprograms li ul li#winupdate a:hover, #allprograms li a:hover, #allprograms li a.stuff, #myplaces li#myrecent a.stuff {
+    background-color: #316AC5;
+    color:white;
+   
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#startmenu #close li {
+    float: left;
+}
+#startmenu #close {
+    position: absolute;
+}
